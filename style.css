@@ -1,0 +1,43 @@
+* {
+    background-color: #070606;
+    color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+	text-align: center;
+}
+
+.unimportant {
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 5px;
+    padding-left: 4px;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.block {
+    width: 10%;
+    padding: 10px;
+    text-align: center;
+}
+
+*:hover {
+	color: #e6e6e6;
+}
+:lang(he) {
+  font-family: 'Noto Serif Hebrew', 'David Libre', serif;
+}
+:lang(en) {
+  font-family: 'Georgia', 'Times New Roman', serif;
+}
+
+article {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
